@@ -1,9 +1,9 @@
 ## Bootstrap compiler for the early version of Admiran, written in Miranda
 
-This is the Miranda bootstrap compiler used to build the original Admiran compiler (then called "mirac").
-To build this, you need the Miranda language distribution compiler from https://codeberg.org/DATurner/miranda.
-Note: this bootstrap compiler is incompatible with the current version of Admiran, as there have been too many changes
-to the Admiran sources since.
+This is the miraBoot bootstrap compiler, written in Miranda, that was used to build the original Admiran compiler
+(then called "mirac"). To build this, you need the Miranda language distribution compiler from https://codeberg.org/DATurner/miranda.
+Note: miraBoot cannot be used to bootstrap the current version of Admiran, as there have been too many changes
+to the Admiran sources since. Instead, Admiran provides its own bootstrap compilers in the `/boot` directory.
 
 ### Setup
 
