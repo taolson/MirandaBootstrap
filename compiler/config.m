@@ -11,9 +11,8 @@
 os ::= MacOS | Linux
 
 || these parameters must be set when installing the compiler
-hostOS                = MacOS           || set to Linux or MacOS
-miranda2LibPath       = "/Users/tim/Programming/Miranda2/lib"        || set to the absolute path name fo the lib directory
-                                        || e.g. "/home/tim/Programming/Miranda2/lib"
+hostOS                = Linux           || set to Linux or MacOS
+miranda2LibPath       = "../lib"        || set to the absolute path name fo the lib directory
 
 || os-dependant configuration parameters
 (codegenCsymbolPrefix, ccOpts)
