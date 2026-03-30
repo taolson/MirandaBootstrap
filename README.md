@@ -16,8 +16,8 @@ To test it, go into the "examples" directory and type "../miraBoot/mirac.m prime
 a "primes.s" asm file.  To run this, type "cc -o primes primes.s ../lib/runtime.c" to create the native
 "primes" executable.
 
-### Building the original Admiran compiler
+### Building the original self-hosted mirac compiler
 
-The early version of the Admiran compiler can be built by going into the compiler directory, and type
+The self-hosted version of the mirac compiler can be built by going into the compiler directory, and type
 "../miraBoot/mirac.m mirac".  Note: this takes a lot of Miranda heap space to build; you will need to
 bump the heap to 250000000 cells with the /heap command, and it will take ~20 minutes to build.
