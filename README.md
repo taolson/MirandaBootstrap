@@ -1,4 +1,4 @@
-# Bootstrap compiler for the early version of Admiran, written in Miranda
+## Bootstrap compiler for the early version of Admiran, written in Miranda
 
 This is the original Miranda bootstrap compiler used to build the original Admiran compiler (then called "mirac").
 To build this, you need the original Miranda language distribution compiler "mira".
